@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { CORREO } from "../datos.js";
+import { CORREO, linkWhatsApp } from "../datos.js";
 
 export default function Pie() {
   return (
@@ -9,6 +9,7 @@ export default function Pie() {
         <nav aria-label="Legal">
           <Link to="/privacidad">Aviso de privacidad</Link>
           <Link to="/terminos">Términos y condiciones</Link>
+          <a href={linkWhatsApp} target="_blank" rel="noopener noreferrer">WhatsApp</a>
           <a href={`mailto:${CORREO}`}>{CORREO}</a>
         </nav>
         <span className="mano">gracias por llegar hasta aquí ✌</span>

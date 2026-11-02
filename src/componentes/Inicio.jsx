@@ -2,6 +2,7 @@ import { useState } from "react";
 import {
   CORREO,
   FACEBOOK,
+  linkWhatsApp,
   temas,
   cinta,
   servicios,
@@ -272,6 +273,10 @@ function Contacto() {
             Mándanos un mensaje con tu idea y te respondemos con una propuesta. La primera asesoría es sin costo.
           </p>
           <div className="canales">
+            <a href={linkWhatsApp} target="_blank" rel="noopener noreferrer" className="canal-wa">
+              <span>Mándanos WhatsApp</span>
+              <span>→</span>
+            </a>
             <a href={FACEBOOK} target="_blank" rel="noopener noreferrer">
               <span>Escríbenos en Facebook</span>
               <span>→</span>

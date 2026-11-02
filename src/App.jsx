@@ -4,6 +4,7 @@ import Encabezado from "./componentes/Encabezado.jsx";
 import Pie from "./componentes/Pie.jsx";
 import Inicio from "./componentes/Inicio.jsx";
 import PaginaLegal from "./componentes/PaginaLegal.jsx";
+import BotonWhatsApp from "./componentes/BotonWhatsApp.jsx";
 import { privacidad, terminos } from "./legal.js";
 
 // Al cambiar de página sube al inicio; si hay #ancla, baja hasta esa sección
@@ -34,6 +35,7 @@ export default function App() {
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <Pie />
+      <BotonWhatsApp />
     </>
   );
 }

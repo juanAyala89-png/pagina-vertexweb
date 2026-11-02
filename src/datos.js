@@ -3,6 +3,11 @@
 export const CORREO = "vertexweb.lab@gmail.com";
 export const FACEBOOK = "https://www.facebook.com/profile.php?id=61595712540814";
 
+// WhatsApp: 52 + tu número de 10 dígitos, sin espacios ni signos. Ej: "525512345678"
+export const WHATSAPP = "525666381595";
+export const MENSAJE_WHATSAPP = "¡Hola Vertex.web! Vi su página y me interesa un proyecto.";
+export const linkWhatsApp = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(MENSAJE_WHATSAPP)}`;
+
 export const menu = [
   { href: "/#servicios", texto: "Servicios" },
   { href: "/#seguridad", texto: "Seguridad" },
