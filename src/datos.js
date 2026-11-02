@@ -56,8 +56,8 @@ export const servicios = [
   {
     num: "06 · Ventas",
     titulo: "Landing pages",
-    texto: "Páginas con una sola misión, pensadas para tus anuncios de Facebook e Instagram y hechas para vender.",
-    etiquetas: ["Anuncios", "Formularios", "Métricas"],
+    texto: "Páginas con un solo objetivo: que te escriban o te compren. Pensadas para tus anuncios de Facebook e Instagram.",
+    etiquetas: ["Anuncios", "WhatsApp", "Formularios", "Píxel de Meta"],
     estilo: "ancha",
   },
 ];
